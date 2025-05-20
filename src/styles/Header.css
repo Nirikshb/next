@@ -1,0 +1,28 @@
+/* src/styles/Header.css */
+
+.header {
+  color: white;
+  padding: 10px 20px;
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  border-bottom: 1px solid black;
+}
+
+/* nav links */
+.header__nav {
+  display: flex;
+  /* gap: 1rem; */
+}
+
+.header__link {
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+/* hover state */
+.header__link:hover {
+  color: #3b82f6; /* Tailwind’s blue-500 */
+}
